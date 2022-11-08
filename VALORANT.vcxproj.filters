@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="render\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="blow.cpp">
+      <Filter>Header Files\decryption</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mapper\Kdmapper\intel_driver.cpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\kdmapper.cpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\portable_executable.cpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\service.cpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\utils.cpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="imguipp.cpp">
+      <Filter>ImGui\custom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2b53feae-fdd5-4bdd-81ee-56c31543d513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver">
+      <UniqueIdentifier>{faf091c5-0258-4872-9cf7-554d3efe896c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{a0faba54-debc-4e90-8549-96042002ed75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{8d7be149-07cf-43f8-9cdc-6bfd1738a84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\decryption">
+      <UniqueIdentifier>{db710f93-f240-4697-be83-4d117dbe76d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\other">
+      <UniqueIdentifier>{d19a6bb7-4987-4a8c-95d3-bd8b6e55f86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver\Mapper">
+      <UniqueIdentifier>{f02c0e5d-f319-4597-9974-e9a661886781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver\Mapper\Kdmapper">
+      <UniqueIdentifier>{e9786998-e8f0-4a9c-81f0-eb938c8fd617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\custom">
+      <UniqueIdentifier>{bab9e03c-defc-47be-b269-84fe977da0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\other\obsidium">
+      <UniqueIdentifier>{0a3efc42-104f-4194-8bea-f875e1726c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\other\anti">
+      <UniqueIdentifier>{9042ad8a-662e-4cb0-9fea-f6ddfbd65fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\other\anti\auth">
+      <UniqueIdentifier>{d802c2e2-f3bf-4faf-969b-831b8c594bd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="render\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="blow.h">
+      <Filter>Header Files\decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>Header Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="ss.h">
+      <Filter>Header Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="print.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\auth.hpp">
+      <Filter>Header Files\Game\other\anti\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\intel_driver.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\intel_driver_resource.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\kdmapper.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\nt.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\portable_executable.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\service.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\utils.hpp">
+      <Filter>Header Files\Driver\Mapper\Kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="imguipp.h">
+      <Filter>ImGui\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="obsidium64.h">
+      <Filter>Header Files\Game\other\obsidium</Filter>
+    </ClInclude>
+    <ClInclude Include="anti.hpp">
+      <Filter>Header Files\Game\other\anti</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.hpp">
+      <Filter>Header Files\Game\other\anti</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="KeyAuth\libcurl.lib">
+      <Filter>Header Files\Game\other\anti\auth</Filter>
+    </Library>
+    <Library Include="KeyAuth\library_x64.lib">
+      <Filter>Header Files\Game\other\anti\auth</Filter>
+    </Library>
+    <Library Include="obsidium64.lib">
+      <Filter>Header Files\Game\other\obsidium</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
